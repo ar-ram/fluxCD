@@ -31,13 +31,13 @@ FluxCD is a GitOps-based deployment tool for Kubernetes that automates the synch
 | Secrets Management    | Integrates with SOPS, Mozilla Sealed Secrets| Integrates with Vault, Bitnami Sealed Secrets |
 | Rollback              | Manual or via Flagger                       | UI-supported rollback                      |
 
-#### ✅ Advantages of FluxCD:
+####  Advantages of FluxCD:
 - Lightweight, modular, and ideal for CLI/git-based workflows.
 - Git-first approach with better Git integration.
 - Excellent for automation and scripting in CI/CD pipelines.
 - Easier to extend via its GitOps Toolkit.
 
-#### ❌ Disadvantages of FluxCD:
+####  Disadvantages of FluxCD:
 - Lacks built-in GUI for visibility.
 - Learning curve for newcomers due to modular controller setup.
 - Debugging can be CLI-intensive.
